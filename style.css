@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&family=Roboto:wght@100;400;900&display=swap');
+
+body {
+  background-color: rgb(169, 202, 250);
+  font-family: 'Open+Sans', sans-serif;
+  font-size: 16px;
+  line-height: normal;
+  font-weight: 400;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #575F7D;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: normal;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #3312d6;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #ee14a5;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+a {
+  font-family: 'Open+Sans', sans-serif;
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 500;
+  font-size: 16px;
+  display: inline-block;
+}
+
+a:hover {
+  background-color: none;
+}
+
+.container {
+  width: 800px;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+}
+
+.card-white {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 10px 30px rgba(16, 23, 234, 0.1);
+  border-radius: 5px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding-left: 0px;
+}
+
+.list-inline i {
+  font-size: 40px;
+  color: rgb(3, 32, 255);
+  padding: 10px;
+}
+
+.list-inline i:hover  {
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+}
+
+.btn-blue {
+  background-color: #0536fb;;
+  color: rgb(240, 244, 22);
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.btn-blue:hover {
+  background-color: #000000;;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
